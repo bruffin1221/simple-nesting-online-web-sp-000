@@ -127,6 +127,7 @@ def adding_to_dennis
      }
 		 languages=programmer_hash[:dennis_ritchie][:languages]
 		 languages[1]="Assembly"
+		 programmer_hash
 end
 
 contacts = {
