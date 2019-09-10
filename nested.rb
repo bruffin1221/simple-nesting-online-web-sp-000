@@ -104,6 +104,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
+		 programmer_hash[:alan_kay][:known_for]="GUI"
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
 
@@ -140,7 +141,4 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
-contacts["Blake Lively"]={
- :name=>"Blake",
- :email=>"blively@gamil.com"}
- contacts
+contacts["Jon Snow"][:email]="freddy@gmail.com"
