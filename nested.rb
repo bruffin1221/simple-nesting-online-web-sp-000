@@ -124,7 +124,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+		 dennis_ritchie=programmer_hash[:dennis_ritchie][:languages]
+		 languages[1]="Assembly"
 end
 
 contacts = {
@@ -138,4 +139,5 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
-contacts["Freddy Mercury"][:name]="Fred"
+favorite_ice_cream_flavors=contacts["Jon Snow"][:favorite_ice_cream_flavors]
+favorite_ice_cream_flavors[1]="neopolitan"
