@@ -109,6 +109,7 @@ def changing_alan
 end
 
 def adding_to_dennis
+	languages=[]
 	programmer_hash =
  		{
         :grace_hopper => {
